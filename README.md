@@ -107,7 +107,4 @@ The agents adapt automatically based on new input.
 
 ## 🏗 Architecture Diagram
 
-If the repo contains the diagram as `images/architecture.png`, you can display it like this:
-
-```markdown
-![AI Opportunity Navigator Architecture](images/architecture.png)
+![AI Opportunity Navigator Architecture](Images/architecture.png)
