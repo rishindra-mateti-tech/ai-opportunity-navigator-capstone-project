@@ -1,69 +1,113 @@
-📌 AI Opportunity Navigator — Capstone Project
+# AI Opportunity Navigator — Capstone Project
 
-A multi-agent career-guidance system built using Google ADK + Gemini + Gradio.
-It analyzes a user’s background, skills, interests, experience level, and goals — then generates personalized opportunities, including research roles, internships, projects, and a 90-day action plan.
+A multi-agent career-guidance system built using Google ADK, Gemini, and Gradio.  
+It analyzes a user’s background, skills, interests, experience level, and goals — then generates personalized research roles, internships, projects, and a structured 60–90 day action plan.
 
-🚀 Overview
+---
 
-Choosing the right career opportunity is confusing — too many choices, not enough clarity.
-This project solves that using Agentic AI.
+## 🧭 Overview
 
-The system uses multiple coordinated agents:
+Choosing the right career opportunity is difficult — too many choices, not enough clarity.  
+This project solves the problem using an **agentic AI system** that coordinates multiple agents to guide the user.
 
-ProfileAgent — understands user background
+The system includes the following components:
 
-OpportunityAgent — recommends research roles, internships, projects
+### 🧩 ProfileAgent  
+Understands the user’s background and extracts structured information.
 
-PlannerAgent — creates personalized 60–90 day actionable plans
+### 🎯 OpportunityAgent  
+Recommends research roles, internships, and project ideas.
 
-Orchestrator — runs everything in sequence using Google ADK
+### 🗺 PlannerAgent  
+Creates a personalized **60–90 day action plan** based on the user's goals and opportunities.
 
-Gradio UI — user enters details + chats with the system
+### 🧠 Orchestrator (SequentialAgent)  
+Runs agents in sequence:
 
-🧠 Architecture
+**Profile → Opportunity → Planner**
 
-✨ Features
+### 💬 Gradio UI  
+Collects user details and provides a **chat interface** for follow-up questions.
 
-✔ Multi-agent system powered by Google ADK
-✔ Uses Gemini 2.5 Flash / Flash Lite models
-✔ Smart text-processing tools (extract_profile, suggest_opps, score_opportunities)
-✔ Clean Gradio UI with interactive chat
-✔ Personalized opportunity matching based on skills, interests & goals
-✔ Auto-generated 90-day action plan
-✔ Handles follow-up questions and adapts
-✔ Can be extended to show live job links (Indeed, LinkedIn, Google Jobs)
+---
 
-🧩 How It Works
+## ✨ Features
 
-User enters background
-– Skills, education, goals, interests, experience level
+- ✅ Multi-agent system powered by **Google ADK**
+- ✅ Uses **Gemini 2.5 Flash / Flash Lite**
+- ✅ Smart tools: `extract_profile`, `suggest_opps`, `score_opportunities`
+- ✅ Clean and interactive **Gradio** UI
+- ✅ Personalized opportunity matching based on background, skills, interests & goals
+- ✅ Auto-generated **60–90 day action plan**
+- ✅ Handles follow-up questions and adapts responses
+- ✅ Future-ready: can be extended to show **live job links** (LinkedIn, Indeed, Google Jobs)
 
-Profile Builder
-– Converts user input to structured text
+---
 
-Orchestrator Agent
-– Runs ProfileAgent → OpportunityAgent → PlannerAgent
+## ⚙️ How It Works
 
-Agents produce:
+### 1️⃣ User Provides Background
 
-Summary of user profile
+Inputs include:
 
-Personalized opportunities
+- Skills  
+- Education  
+- Goals  
+- Interests  
+- Experience level  
 
-90-day career plan
+---
 
-Chat Interface
-– Supports follow-up Q&A
-– User can refine, ask for alternative paths, new goals, etc.
+### 2️⃣ Profile Builder
 
-🛠️ Tech Stack
+Converts all user inputs into a **structured profile text** that agents can work with.
 
-Google ADK (Agent Development Kit)
+---
 
-Gemini 2.5 Flash / Flash Lite
+### 3️⃣ Orchestrator Agent
 
-Gradio (UI)
+Runs the workflow in order:
 
-Python
+**ProfileAgent → OpportunityAgent → PlannerAgent**
 
-FunctionTool + SequentialAgent + LlmAgent
+Each agent focuses on its own task, but they work together as a pipeline.
+
+---
+
+### 4️⃣ Agents Produce
+
+- Summary of the user profile  
+- Matched opportunities (research roles, internships, projects)  
+- A complete **60–90 day career plan**
+
+---
+
+### 5️⃣ Chat Interface
+
+The user can:
+
+- Ask follow-up questions  
+- Request alternative paths  
+- Update goals or skills  
+- Explore different career directions  
+
+The agents adapt automatically based on new input.
+
+---
+
+## 🧱 Tech Stack
+
+- **Google ADK** (Agent Development Kit)  
+- **Gemini 2.5 Flash / Flash Lite**  
+- **Gradio** (for the web UI)  
+- **Python**  
+- **FunctionTool**, **SequentialAgent**, **LlmAgent**
+
+---
+
+## 🏗 Architecture Diagram
+
+If the repo contains the diagram as `images/architecture.png`, you can display it like this:
+
+```markdown
+![AI Opportunity Navigator Architecture](images/architecture.png)
