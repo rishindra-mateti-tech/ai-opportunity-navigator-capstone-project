@@ -185,7 +185,7 @@ Watch the entire explanation, code flow, and live Gradio demo here:
 
 **Rishindra Mateti**  
 MS in Computer Science — Wright State University  
-Focus: **AI, ML, Cloud, and Agentic Systems**
+AI • ML • Cloud • Agentic Systems
 
 If this project helps you, a ⭐ on the repo would mean a lot 🙂
 
