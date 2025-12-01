@@ -168,6 +168,19 @@ The notebook will:
 
 ---
 
+## 📺 Demo Video (YouTube)
+
+Here is the full walkthrough of the **AI Opportunity Navigator – Capstone Project**  
+Watch the entire explanation, code flow, and live Gradio demo here:
+
+👉 https://youtu.be/dUHtmetdXHY
+
+[![Demo Video Thumbnail](https://img.youtube.com/vi/dUHtmetdXHY/maxresdefault.jpg)](https://youtu.be/dUHtmetdXHY)
+
+
+---
+
+
 ## 👤 Author
 
 **Rishindra Mateti**  
