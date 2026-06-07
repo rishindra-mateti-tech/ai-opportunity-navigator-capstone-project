@@ -2,7 +2,7 @@
 
 ## Personalized Career Guidance Using Multi-Agent AI Systems
 
-[![Google × Kaggle AI Agents Intensive](https://img.shields.io/badge/Google%20%C3%97%20Kaggle-AI%20Agents%20Intensive-blue?style=for-the-badge&logo=google)]((https://www.kaggle.com/certification/badges/rishindramatechti/105))
+[![Google × Kaggle AI Agents Intensive](https://img.shields.io/badge/Google%20%C3%97%20Kaggle-AI%20Agents%20Intensive-blue?style=for-the-badge&logo=google)](https://www.kaggle.com/certification/badges/rishindramatechti/105)
 
 AI Opportunity Navigator was developed as the capstone project for the **Google × Kaggle AI Agents Intensive**, a 5-day hands-on program focused on building agentic AI systems using Google's latest AI tooling.
 
